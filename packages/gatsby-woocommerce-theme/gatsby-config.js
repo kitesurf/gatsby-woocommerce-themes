@@ -32,7 +32,7 @@ module.exports = ({ wordPressUrl, gatsbySiteUrl, googleTagManagerId, fbAppId }) 
         url: `${wordPressUrl}/graphql`,
         verbose: true,
         develop: {
-          nodeUpdateInterval: 3000,
+          nodeUpdateInterval: 4000,
           hardCacheMediaFiles: true,
         },
         production: {
